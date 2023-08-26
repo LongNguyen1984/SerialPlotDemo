@@ -33,12 +33,13 @@ CONFIG += c++17
 
 * Step 3. We need a config file for qt named 'qt.conf'
 We must copy all libraries from QT creator to ensure the App can run on Windows OS
-
+<code>
 _%QT Installed Folder%/6.5.2/msvc2019_64/plugins/styles/_
 List lib files in 
-_%QT Installed Folder%/QT/Tools/QTCreator/bin _
-QT6Core.dll
-Qt6Gui.dll
-QT6SerialPort.dll
-Qt6Widgets.dll
-_%QT Installed Folder%/QT/Tools/QTCreator/bin/plugins/platforms _
+_%QT Installed Folder%/QT/Tools/QTCreator/bin_
+ QT6Core.dll
+ Qt6Gui.dll
+ QT6SerialPort.dll
+ Qt6Widgets.dll
+_%QT Installed Folder%/QT/Tools/QTCreator/bin/plugins/platforms_
+</code>
