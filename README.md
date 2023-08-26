@@ -5,4 +5,9 @@ Serial connect to COM Port at Bauld Rate 115200.
 
 When the 'connect' button is clicked, the process starts to draw data.
 
+<details>
+  <summary>Some summary</summary>
 
+  ![Description](https://github.com/LongNguyen1984/SerialPlotDemo/blob/main/GUIdemo.png)
+
+</details>
