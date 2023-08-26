@@ -21,18 +21,17 @@ File 'On_OFF_Serial.ino' contains sample code for reading an analog value of the
 QT       += core gui serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets **printsupport**
-
 CONFIG += c++17
-
 </code>
-* Step 2. in file main.cpp we would like to keep style of QT Theme, hence we add the following code:
+* Step 2. In file main.cpp we would like to keep style of QT Theme, hence we add the following code:
 <code>
     **QApplication::setStyle("fusion");**
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
 </code>
-Step 3. We need a config file for qt named 'qt.conf'
+
+* Step 3. We need a config file for qt named 'qt.conf'
 We must copy all libraries from QT creator to ensure the App can run on Windows OS
 
 _%QT Installed Folder%/6.5.2/msvc2019_64/plugins/styles/_
